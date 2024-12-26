@@ -13,11 +13,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
     <!-- Header Section -->
     <header>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg bg-success">
         <div class="container">
           <!-- Logo -->
           <a class="navbar-brand" href="#">
@@ -67,16 +68,12 @@
         </div>
       </nav>
     </header>
-
-    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <div class="p-3 mb-2 bg-black text-white d-flex justify-content-center">
       GRAB YOUR XMAS DISCOUNT DEAL
     </div>
-
     <div class="container my-5">
       <div class="row">
-        <!-- Left Column: Images -->
         <div class="col-md-6">
           <div class="mb-3">
             <img src="img/bike1.webp" alt="Bike" class="img-fluid rounded" />
@@ -102,16 +99,10 @@
             />
           </div>
         </div>
-
-        <!-- Right Column: Product Details -->
         <div class="col-md-6">
-          <!-- Title -->
+        
           <h2>4130 - Matte Black / Mirror (Fixed Gear / Single-Speed)</h2>
-
-          <!-- Price -->
-          <h3 class="card-title">KHR 2,244,000.00</h3>
-
-          <!-- Offer -->
+          <h3 class="card-title text-success">KHR 2,244,000.00</h3>
           <div class="alert alert-success d-flex align-items-center">
             <i class="bi bi-gift-fill me-2"></i>
             <span
@@ -119,14 +110,10 @@
               <strong>XMAS24</strong></span
             >
           </div>
-
-          <!-- Free Shipping -->
           <div class="alert alert-light d-flex align-items-center">
             <i class="bi bi-truck me-2"></i>
             <span>Free Shipping - Delivered straight to your doorstep</span>
-          </div>
-
-          <!-- Insurance -->
+          </div> 
           <div class="alert alert-light d-flex align-items-center">
             <i class="bi bi-shield-check me-2"></i>
             <span
@@ -134,26 +121,20 @@
               insurance</span
             >
           </div>
-
-          <!-- Quantity Selector -->
           <div class="my-3">
             <label for="quantity" class="form-label">Quantity</label>
             <div class="input-group" style="width: 150px">
-              <button class="btn btn-outline-secondary" type="button">-</button>
+              <button class="btn bg-success" type="button">-</button>
               <input
                 type="text"
                 id="quantity"
                 class="form-control text-center"
                 value="1"
               />
-              <button class="btn btn-outline-secondary" type="button">+</button>
+              <button class="btn bg-success" type="button">+</button>
             </div>
-          </div>
-
-          <!-- Buy Now Button -->
-          <button class="btn btn-success w-100">Buy Now</button>
-
-          <!-- Payment Methods -->
+          </div>  
+          <button class="btn bg-success w-100">Buy Now</button>
           <div class="text-center mt-4">
             <p>Secure checkout with:</p>
             <img src="img/visa.png" alt="Visa" width="50" class="me-2" />
@@ -172,34 +153,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <h1>You my also like</h1>
-    <div
-      class="bebe d-flex gap-5 d-flex justify-content-center"
-      style="margin-top: 30px"
-    >
-      <div class="card" style="width: 18rem">
-        <img src="img/bike-1.webp" class="card-img-top" alt="..." />
+
+    <div class="row mt-5">
+      <div class="b col-md-4 product">
+        <img src="img/bike-1.webp" class="img-fluid" alt="Bike 1" />
         <div class="card-body">
-          <h5 class="card-title">Core-Line - Lavender Haze/ balck bike</h5>
-          <p class="card-text">
-            Experience the enchantment of the Lavender Haze Core-Line Bike
-          </p>
-          <div class="card-icon">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </div>
-          <h4 class="card-title">KHR1,632,000.00</h4>
-          <a href="#" class="btn">Sale</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img src="img/bike-2.webp" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">6061 Black Label v3 - Black / Mirror</h5>
-          <p class="card-text">
-            The next chapter in performance-focused urban cycling.
+          <h5 class="card-title text-success m-3">
+            Hi-ten black fixies / Fixed gear bike
+          </h5>
+          <p class="card-text m-3">
+            all black everything. as stiealth as it is stylish
           </p>
           <div class="card-icon">
             <i class="bi bi-star-fill"></i>
@@ -208,29 +171,47 @@
             <i class="bi bi-star-fill"></i>
             <i class="bi bi-star"></i>
           </div>
-          <h4 class="card-title">KHR3,062,000.00</h4>
-          <a href="#" class="btn">Sale</a>
+          <a href="payment.html" class="btn bg-success m-2">Sale</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem">
-        <img src="img/bike-3.webp" class="card-img-top" alt="..." />
+      <div class="b col-md-4 product">
+        <img src="img/bike-2.webp" class="img-fluid" alt="Bike 1" />
         <div class="card-body">
-          <h5 class="card-title">6061 Black Label v3-Volt/Matte Black</h5>
-          <p class="card-text">
-            The next chapter in performance-focused urban cycling.
+          <h5 class="card-title m-3 text-success">
+            Hi-ten black fixies / Fixed gear bike
+          </h5>
+          <p class="card-text m-3">
+            all black everything. as stiealth as it is stylish
           </p>
           <div class="card-icon">
             <i class="bi bi-star-fill"></i>
             <i class="bi bi-star-fill"></i>
             <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star"></i>
+            <i class="bi bi-star-fill"></i>
             <i class="bi bi-star"></i>
           </div>
-          <h4 class="card-title">KHR3,062,000.00</h4>
-          <a href="#" class="btn">Sale</a>
+          <a href="#" class="btn bg-success m-2">Sale</a>
         </div>
       </div>
-    </div>
+      <div class="b col-md-4 product">
+        <img src="img/bike-3.webp" class="img-fluid" alt="Bike 3" />
+        <div class="card-body">
+          <h5 class="card-title m-3 text-success">
+            Hi-ten black fixies / Fixed gear bike
+          </h5>
+          <p class="card-text m-3">
+            all black everything. as stiealth as it is stylish
+          </p>
+          <div class="card-icon">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <a href="#" class="btn bg-success m-2">Sale</a>
+        </div>
+      </div>
     <!-- Footer Section -->
     <footer class="footer" style="margin-top: 200px">
       <div class="container">
@@ -284,19 +265,18 @@
   </body>
 </html>
 <style>
-  .navbar {
-    background-color: #5bbf32;
-  }
   .contact-info .icon {
     font-size: 24px;
     margin-right: 15px;
-    color: #5bbf32;
   }
   .card:hover {
     transition: all 0.5s;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
       rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
       rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  .row{
+    margin-right: 0;
   }
   .footer {
     background: #000;
@@ -325,14 +305,5 @@
     margin-right: 10px;
     color: white;
     font-size: 1.2rem;
-  }
-  .card-title {
-    color: #5bbf32;
-  }
-  .btn {
-    background-color: #5bbf32;
-  }
-  .btn:hover {
-    background-color: red;
   }
 </style>
